@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HeaderComp/>
+    <HeaderComp :navbarData="navbar"/>
     <MainComp/>
     <FooterComp/>
     
@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import HeaderComp from './components/HeaderComp.vue'
-import MainComp from './components/MainComp.vue'
-import FooterComp from './components/FooterComp.vue'
+import HeaderComp from './components/header/HeaderComp.vue'
+import MainComp from './components/main/MainComp.vue'
+import FooterComp from './components/footer/FooterComp.vue'
 
 export default {
   name: 'App',
@@ -18,23 +18,57 @@ export default {
     HeaderComp,
     MainComp,
     FooterComp
+  },
+ data(){
+  return {
+    navbar: [
+      {
+        name: 'Home',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'Services',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'About',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'Videos',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'Blog',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'Store',
+        url: 'https://www.google.com'
+      }
+    ]
+ 
   }
+ }
+
 }
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Montserrat&display=swap');
 
 #app{
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
 }
 
 </style>

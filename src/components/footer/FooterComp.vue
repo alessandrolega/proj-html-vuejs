@@ -1,12 +1,12 @@
 <template>
     <div>
-        <h1>Ciao</h1>
+
     </div>
 </template>
 
 <script>
     export default {
-        name: 'MainComp'
+        name: 'FooterComp'
     }
 </script>
 
