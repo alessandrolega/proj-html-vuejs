@@ -1,6 +1,7 @@
 <template>
-    <section class="section1">
-        <div class="container">
+        <section class="section1">
+            <div class="overlay-box">
+                <div class="container">
             <div class="section1-cont">
                 <div class="text-cont">
                     <h1>Certified fitness professional</h1>
@@ -25,9 +26,12 @@
         </div>
         <button class="btn-demos"><font-awesome-icon icon="fa-solid fa-folder" class="icon-folder" /><p>Demos</p></button>
         <button class="btn-sales"><font-awesome-icon icon="fa-solid fa-dollar-sign" class="icon-dollar" /><span class="price">39</span><p>On Sale</p></button>
+            </div>
+        
        
 
     </section>
+  
 </template>
 
 <script>
@@ -43,6 +47,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-color: black;
     
 }
 
@@ -114,7 +119,7 @@
 .btn-buy-avada1{
     background-color: black;
     color: #A6A6A6;
-    border-color: #979798;
+    border: 2px solid #979798;
     border-radius: 40px;
     padding: 10px;
     width: 15%;
@@ -165,7 +170,7 @@
 
 .btn-sales{
     position: absolute;
-    top: 95px;
+    top: 100px;
     right: 20px;
     padding: 10px;
     border: none;
@@ -187,7 +192,13 @@
 }
 
 .icon-folder{
-        width: 25px;
-    }
+        font-size: 1.2rem;
+}
+
+.overlay-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
 
 </style>
