@@ -4,31 +4,40 @@
             <div class="section2-cont">
                 <div class="card-cont">
                     <div class="card-section1">
-                        <div class="card1-text-cont">
+                        <div class="card-overlay">
+                            <div class="card1-text-cont">
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <h2>Crossfit workout</h2>
                             <h3>Push your limits</h3>
                         </div>
+                        </div>
+                        
                     </div>
                     <div class="card-section2">
-                        <div class="card1-text-cont">
+                        <div class="card-overlay">
+                            <div class="card1-text-cont">
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <h2>New gym apparel</h2>
                             <h3>Look good, feel good</h3>
                         </div>
+                        </div>
+                        
                     </div>
                     <div class="card-section3">
-                        <div class="card1-text-cont">
+                        <div class="card-overlay">
+                            <div class="card1-text-cont">
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave card-wave" />
                             <h2>Team training</h2>
                             <h3>Find a partner</h3>
                         </div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="text-container">
@@ -178,6 +187,12 @@
 
 .brand-span2{
     color: lightgrey;
+}
+
+.card-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
 }
 
 
