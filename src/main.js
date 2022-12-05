@@ -16,6 +16,7 @@ import App from './App.vue'
     faFolder,
     faDollarSign
 
+
   } from "@fortawesome/free-solid-svg-icons";
 
   // Import icone regular /
