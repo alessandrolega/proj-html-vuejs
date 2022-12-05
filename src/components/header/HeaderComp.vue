@@ -6,17 +6,20 @@
          <!--NAV-->
       <nav>
         <ul>
+            <!--NAVBAR DINAMICA-->
             <li v-for="(element,index) in navbarData"
             :key="index"
             :navbarData="element"><a href="#">{{element.name}}</a></li>  
         </ul>
+        <!--SPAN NEW-->
         <span class="span-header">new</span>
+        <!--BUTTON-->
         <button class="header-btn">Schedule a workout</button>
+        <!--ICONE-->
         <font-awesome-icon icon="fa-solid fa-cart-shopping" class="icon1" />
         <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="icon2" />
       </nav>
       </div>
-     
     </header>
 </template>
 

@@ -14,7 +14,8 @@ import App from './App.vue'
     faArrowRight,
     faPlay,
     faFolder,
-    faDollarSign
+    faDollarSign,
+    faAngleRight
 
 
   } from "@fortawesome/free-solid-svg-icons";
@@ -30,7 +31,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 
 // add icons to the library /
-library.add(faCartShopping, faMagnifyingGlass, faWaveSquare, faYoutube,faArrowRight, faPlay,faFolder,faDollarSign);
+library.add(faCartShopping, faMagnifyingGlass, faWaveSquare, faYoutube,faArrowRight, faPlay,faFolder,faDollarSign,
+  faAngleRight);
 // add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

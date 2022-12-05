@@ -1,31 +1,42 @@
 <template>
+    <!--INIZIO SEZIONE-->
     <section class="section3">
+        <!--CONTAINER SEZIONE-->
         <div class="section3-cont">
+            <!--CONTAINER IMMAGINE-->
             <div class="img-cont">
+                <!--OVERLAY DIV TRASPARENTE-->
                 <div class="overlay-box">
+                    <!--PLAY BUTTON-->
                     <button class="circle-btn-cont"><font-awesome-icon icon="fa-solid fa-play" class="icon-play"/></button>
                 </div>  
             </div>
+            <!--TEXT CONTAINER-->
             <div class="text-cont-sect3">
                 <a href="#">Turn up your workouts</a>
                 <h2>The best health & fitness advice online</h2>
+                <!--CONTAINER LOGO-->
                 <div class="logo2-cont">
                     <div class="logo">
                         <img src="../../assets/img/unnamed.jpg" alt="">
                     </div>
+                    <!--CONTAINER SPAN-->
                     <div class="span-cont"> 
                         <span class="span-theme">ThemeFusion</span>
+                        <!--YOUTUBE BUTTONS CONTAINER-->
                         <div class="youtube-cont">
-                            <button class="yt-red-btn"><span><font-awesome-icon icon="fa-brands fa-youtube" /></span>Youtube</button>
+                            <button class="yt-red-btn"><font-awesome-icon icon="fa-brands fa-youtube" /><span class="span-btn">YouTube</span></button>
                             <button class="btn-yt-2">999+</button>
                         </div>    
                     </div>
                 </div>
+                <!--PARAGRAFO SEZIONE-->
                 <div class="p-sect">
                     <p>Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo integer sit pellentesque.</p>
                 </div>
+                <!--YOUTUBE BUTTON 3-->
                 <div class="btn-yt-3">
-                    <button class="btn-visit-yt"><span><font-awesome-icon icon="fa-brands fa-youtube" />Visit my YouTube channel</span></button>
+                    <button class="btn-visit-yt"><font-awesome-icon icon="fa-brands fa-youtube" /><span class="span-btn">Visit my YouTube channel</span></button>
                 </div>
             </div>
         </div>
@@ -79,7 +90,6 @@ a{
 .text-cont-sect3 h2{
     font-size: 4.2rem;
     padding-top: 50px;
-
 }
 
 .logo2-cont{
@@ -103,8 +113,7 @@ a{
     color: grey;
     padding: 5px;
     border:none;
-    border-color: 1px  grey;
-
+    border: 1px solid grey;
 }
 
 .youtube-cont{
@@ -127,7 +136,6 @@ a{
 .p-sect p{
     color: grey;
     font-size: 1.3rem;
-   
 }
 
 .btn-visit-yt{
@@ -137,6 +145,11 @@ a{
     border-radius: 40px;
     border:none;
     width: 35%;
+}
+
+.btn-visit-yt:hover{
+    background-color: #ff414b;
+    cursor: pointer;
 }
 
 .btn-yt-3{
@@ -170,33 +183,8 @@ a{
     border-bottom-right-radius:20px;
 }
 
-.section3-cont2{
-    display: flex;
-    justify-content: space-between;
-}
-
-.card-cont{
-    display: flex;
-    justify-content: space-between;
-}
-
-.card1, .card2, .card3{
-    width: 400px;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.card1{
-    background-image: url('../../assets/img/video2-2x.jpg');
-}
-
-.card2{
-    background-image: url('../../assets/img/video7-2x.jpg');
-}
-
-.card3{
-    background-image: url('../../assets/img/video9-2x.jpg');
+.span-btn{
+    padding: 5px;
 }
 
 </style>

@@ -1,11 +1,17 @@
 <template>
+    <!--SEZIONE CON BACKGROUND-->
         <section class="section1">
+            <!--DIV OVERLAY TRASPARENTE-->
             <div class="overlay-box">
+                <!--CONTAINER 70-->
                 <div class="container">
+                    <!--CONTAINER SEZIONE-->
             <div class="section1-cont">
+                <!--CONTAINER TESTO-->
                 <div class="text-cont">
                     <h1>Certified fitness professional</h1>
                     <h2>Take control of your health</h2>
+                    <!--CONTAINER ICONE-->
                     <div class="icon-cont">
                         <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave" />
                         <font-awesome-icon icon="fa-solid fa-wave-square" class="icon-wave" />
@@ -13,25 +19,22 @@
                     </div>
                     <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolori sit amet. </p>
                 </div>
+                <!--CONTAINER BUTTONS-->
                 <div class="btn-container1">
                     <button class="btn-visit-yt"><font-awesome-icon icon="fa-brands fa-youtube" /><span class="span-btn">Visit my Youtube Channel</span></button>
                     <button class="btn-buy-avada1">Buy Avada today <span class="icon-arrow-right"><font-awesome-icon icon="fa-solid fa-arrow-right" /></span></button>
                 </div>
+                <!--PLAY BUTTON-->
                 <button class="circle-btn-cont">
                         <font-awesome-icon icon="fa-solid fa-play" class="icon-play"/>
                 </button>
-
             </div>
-
         </div>
+        <!--BUTTONS-->
         <button class="btn-demos"><font-awesome-icon icon="fa-solid fa-folder" class="icon-folder" /><p>Demos</p></button>
         <button class="btn-sales"><font-awesome-icon icon="fa-solid fa-dollar-sign" class="icon-dollar" /><span class="price">39</span><p>On Sale</p></button>
             </div>
-        
-       
-
     </section>
-  
 </template>
 
 <script>
@@ -48,7 +51,6 @@
     background-size: cover;
     position: relative;
     background-color: black;
-    
 }
 
 .container{
@@ -64,7 +66,6 @@
 
 .icon-wave{
     color: yellow;
-    
 }
 .text-cont{
     width: 55%;

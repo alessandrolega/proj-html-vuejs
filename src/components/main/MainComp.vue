@@ -4,6 +4,7 @@
         <FirstSection/>
         <SecondSection/>
         <ThirdSection/>
+        <ThirdSection2/>
 
     </main>
 </template>
@@ -13,13 +14,15 @@
 import FirstSection from './FirstSection.vue'
 import SecondSection from './SecondSection.vue'
 import ThirdSection from './ThirdSection.vue'
+import ThirdSection2 from './ThirdSection2.vue'
 
     export default {
         name: 'MainComp',
         components: {
             FirstSection,
             SecondSection,
-            ThirdSection
+            ThirdSection,
+            ThirdSection2
         }
     }
 </script>
