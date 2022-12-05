@@ -10,13 +10,26 @@ import App from './App.vue'
   import {
     faCartShopping,
     faMagnifyingGlass,
+    faWaveSquare,
+    faArrowRight,
+    faPlay,
+    faFolder,
+    faDollarSign
+
   } from "@fortawesome/free-solid-svg-icons";
 
   // Import icone regular /
 import {} from "@fortawesome/free-regular-svg-icons";
 
+// Import icone brands /
+
+import {
+  faYoutube
+
+} from "@fortawesome/free-brands-svg-icons"
+
 // add icons to the library /
-library.add(faCartShopping, faMagnifyingGlass);
+library.add(faCartShopping, faMagnifyingGlass, faWaveSquare, faYoutube,faArrowRight, faPlay,faFolder,faDollarSign);
 // add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

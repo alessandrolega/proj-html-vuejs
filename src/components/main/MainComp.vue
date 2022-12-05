@@ -1,12 +1,20 @@
 <template>
-    <div>
+    <main>
+        <!--SEZIONE 1-->
+        <FirstSection/>
 
-    </div>
+    </main>
 </template>
 
 <script>
+
+import FirstSection from './FirstSection.vue'
+
     export default {
-        name: 'MainComp'
+        name: 'MainComp',
+        components: {
+            FirstSection
+        }
     }
 </script>
 
