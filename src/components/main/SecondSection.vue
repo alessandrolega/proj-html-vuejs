@@ -183,6 +183,7 @@
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    font-weight: bold;
 }
 
 .brand-span2{
