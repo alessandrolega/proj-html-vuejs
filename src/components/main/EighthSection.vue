@@ -16,16 +16,8 @@
                     <h3>November 15th, 2019</h3>
                     <span>View all videos <font-awesome-icon icon="fa-solid fa-arrow-right-long" /></span>
                 </div>
-                
-
-
             </div>
-
-
-
         </div>
-
-
     </section>
 </template>
 
@@ -57,7 +49,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .circle-btn-cont{
@@ -87,7 +78,6 @@
     font-size: 2.5rem;
     color: yellow;
     padding-bottom: 20px;
-
 }
 
 .text-cont-center span{
