@@ -14,6 +14,8 @@
         <FourthSection2/>
         <!--SEZIONE 5-->
         <FifthSection/>
+        <!--SEZIONE 6-->
+        <SixthSection/>
 
     </main>
 </template>
@@ -27,6 +29,7 @@ import ThirdSection2 from './ThirdSection2.vue'
 import FourthSection from './FourthSection.vue'
 import FourthSection2 from './FourthSection2.vue'
 import FifthSection from './FifthSection.vue'
+import SixthSection from './SixthSection.vue'
 
     export default {
         name: 'MainComp',
@@ -37,7 +40,8 @@ import FifthSection from './FifthSection.vue'
             ThirdSection2,
             FourthSection,
             FourthSection2,
-            FifthSection
+            FifthSection,
+            SixthSection
         }
     }
 </script>
