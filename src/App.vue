@@ -3,7 +3,6 @@
     <HeaderComp :navbarData="navbar"/>
     <MainComp/>
     <FooterComp :footerNav="footerNav"/>
-    
   </div>
 </template>
 

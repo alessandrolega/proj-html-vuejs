@@ -26,7 +26,7 @@
                         <span>Find a partner <font-awesome-icon icon="fa-solid fa-angle-right" /></span>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card card-hover">
                     <!--CARD HEAD-->
                     <div class="card-head">
                         <font-awesome-icon icon="fa-solid fa-dumbbell" class="icon-card" />
@@ -133,5 +133,10 @@
 .card-footer span {
     color: white;
     font-weight: bold;
+}
+
+.card-hover:hover{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 </style>

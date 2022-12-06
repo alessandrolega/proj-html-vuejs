@@ -21,7 +21,7 @@
                         </div>
                         </div>  
                     </div>
-                    <div class=" card card-section2">
+                    <div class=" card card-hover card-section2">
                         <!--CARD SECTION 2-->
                         <div class="card-overlay">
                             <!--CARD OVERLAY TRASPARENTE-->
@@ -200,6 +200,10 @@
     height: 100%;
     background-color: rgba(0,0,0,0.4);
     border-bottom-right-radius:20px;
+}
+
+.card-hover:hover{
+    margin-top: 20px;
 }
 
 </style>

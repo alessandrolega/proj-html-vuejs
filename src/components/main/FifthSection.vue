@@ -14,17 +14,19 @@
             <div class="cards-container">
                 <!--CARDS-->
                 <div class="card card1">
-                    <!--TEXT CONTAINER-->
-                <div class="text-container">
+                    <div class="overlay-filter"></div>
+                        <!--TEXT CONTAINER-->
+                        <div class="text-container">
                             <div class="text-cont">
                                 <h3>The best protein shake</h3>
                                 <span>By admin | November 26th, 2019 | Gym</span>
                             </div>
                         </div>
+                      
                 </div>
                 <div class="card card2">
-                    <!--TEXT CONTAINER-->
-                 <div class="text-container2">
+                        <!--TEXT CONTAINER-->
+                        <div class="text-container2">
                             <div class="text-cont">
                                 <h3>Ultimate cardio workout</h3>
                                 <span>By admin | November 26th, 2019 | Gym</span>
@@ -163,6 +165,17 @@ a{
 
 h3{
     padding-bottom: 10px;
+}
+
+.overlay-filter{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.20), rgba(255, 0, 118, 0.20));
+    display: block;
+}
+
+.overlay-filter:hover{
+    display: none;
 }
 
 </style>
