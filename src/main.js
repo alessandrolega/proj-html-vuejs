@@ -30,13 +30,17 @@ import {} from "@fortawesome/free-regular-svg-icons";
 // Import icone brands /
 
 import {
-  faYoutube
+  faYoutube,
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faLinkedinIn
 
 } from "@fortawesome/free-brands-svg-icons"
 
 // add icons to the library /
 library.add(faCartShopping, faMagnifyingGlass, faWaveSquare, faYoutube,faArrowRight, faPlay,faFolder,faDollarSign,
-  faAngleRight,faClock,faDumbbell,faChildReaching,faArrowRightLong);
+  faAngleRight,faClock,faDumbbell,faChildReaching,faArrowRightLong, faFacebookF, faTwitter, faInstagram, faLinkedinIn);
 // add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
