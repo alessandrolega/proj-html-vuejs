@@ -2,7 +2,7 @@
   <div id="app">
     <HeaderComp :navbarData="navbar"/>
     <MainComp/>
-    <FooterComp/>
+    <FooterComp :footerNav="footerNav"/>
     
   </div>
 </template>
@@ -44,6 +44,28 @@ export default {
       },
       {
         name: 'Store',
+        url: 'https://www.google.com'
+      }
+    ],
+    footerNav: [
+      {
+        name: 'The best protein shake',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'Ultimate cardio workout',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'New juices available now',
+        url: 'https://www.google.com'
+      },
+      {
+        name: 'Tips to find training partners',
+        url: 'https://www.google.com'
+      },
+      {
+        name: '20 best healthy recipes',
         url: 'https://www.google.com'
       }
     ]
