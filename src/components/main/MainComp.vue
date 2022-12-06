@@ -10,6 +10,8 @@
         <ThirdSection2/>
         <!--SEZIONE 4-->
         <FourthSection/>
+        <!--SEZIONE 4 PARTE DUE INTERNA-->
+        <FourthSection2/>
 
     </main>
 </template>
@@ -21,6 +23,7 @@ import SecondSection from './SecondSection.vue'
 import ThirdSection from './ThirdSection.vue'
 import ThirdSection2 from './ThirdSection2.vue'
 import FourthSection from './FourthSection.vue'
+import FourthSection2 from './FourthSection2.vue'
 
     export default {
         name: 'MainComp',
@@ -29,7 +32,8 @@ import FourthSection from './FourthSection.vue'
             SecondSection,
             ThirdSection,
             ThirdSection2,
-            FourthSection
+            FourthSection,
+            FourthSection2
         }
     }
 </script>
