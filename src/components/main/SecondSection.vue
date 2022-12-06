@@ -8,7 +8,7 @@
                 <!--CARD CONTAINER-->
                 <div class="card-cont">
                     <!--CARD SECTION 1-->
-                    <div class="card-section1">
+                    <div class=" card card-section1">
                         <!--CARD OVERLAY TRASPARENTE-->
                         <div class="card-overlay">
                             <!--TEXT CONTAINER-->
@@ -21,7 +21,7 @@
                         </div>
                         </div>  
                     </div>
-                    <div class="card-section2">
+                    <div class=" card card-section2">
                         <!--CARD SECTION 2-->
                         <div class="card-overlay">
                             <!--CARD OVERLAY TRASPARENTE-->
@@ -35,7 +35,7 @@
                         </div>
                         </div>  
                     </div>
-                    <div class="card-section3">
+                    <div class=" card card-section3">
                         <!--CARD SECTION 2-->
                         <div class="card-overlay">
                             <!--CARD OVERLAY TRASPARENTE-->
@@ -95,13 +95,16 @@
     position: relative;
 }
 
+.card{
+    width: calc(100% / 3);
+    height: 450px;
+}
+
 .card-section1{
     background-image: url('../../assets/img/service6-2x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300px;
-    width: 300px;
     border-bottom-right-radius:20px;
     position: relative;
     
@@ -111,8 +114,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300px;
-    width: 300px;
     border-bottom-right-radius:20px;
     position: relative;
 }
@@ -122,27 +123,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300px;
-    width: 300px;
     border-bottom-right-radius:20px;
     position: relative;
 }
 
 .card-cont{
      display: flex;
-    justify-content: space-between;
+    gap: 50px;
     align-items: center;
-    margin-top: -50px;
+    margin-top: -80px;
 }
 
 .text-container{
     margin-top: 100px;
+    width: 90%;
 }
 
 .text-container > p{
     text-align: center;
     color: white;
-    font-size: 3.9rem;
+    font-size: 3.6rem;
     font-weight: bold;
 }
 
