@@ -19,7 +19,8 @@ import App from './App.vue'
     faClock,
     faDumbbell,
     faChildReaching,
-    faArrowRightLong
+    faArrowRightLong,
+    faAngleUp
 
 
   } from "@fortawesome/free-solid-svg-icons";
@@ -40,7 +41,8 @@ import {
 
 // add icons to the library /
 library.add(faCartShopping, faMagnifyingGlass, faWaveSquare, faYoutube,faArrowRight, faPlay,faFolder,faDollarSign,
-  faAngleRight,faClock,faDumbbell,faChildReaching,faArrowRightLong, faFacebookF, faTwitter, faInstagram, faLinkedinIn);
+  faAngleRight,faClock,faDumbbell,faChildReaching,faArrowRightLong, faFacebookF, faTwitter, faInstagram, faLinkedinIn,
+  faAngleUp);
 // add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
